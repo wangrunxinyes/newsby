@@ -1,0 +1,15 @@
+.btn, .btn-primary {
+	color: #CF5500;
+    transition: background 0.3s ease-in-out 0s;
+    background: transparent none repeat scroll 0% 0%;
+    border: 2px solid #3C3937;
+    border-radius: 0.1875em;
+    color: #3C3937;
+    display: inline-block;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0.08em;
+    padding: 0.75em;
+    text-transform: uppercase;
+    border: 0px none;
+    color: #FFF;
+}

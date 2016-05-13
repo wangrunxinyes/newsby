@@ -1,0 +1,81 @@
+.panel-game-msg_layer_cover {
+	position:fixed;
+	z-index:99999;
+	background-color:rgba(0, 0, 0, 0.5);
+	width:100%;height:100%;  
+	padding:0px;color:#F00;
+}
+
+/** 弹出层组件(z-index:700) **/
+.j-ui-miniwindow {
+	width: 80%;
+	padding:10px;
+	border:1px solid #CACACA;
+	background-color:#FFF;
+	position:absolute;left:0;
+	top:0;display:none;z-index:700
+}
+
+.date-time{
+	float: none;
+}
+
+.j-ui-miniwindow .hd{
+	height:28px;line-height:18px;
+	border-bottom:1px solid #EFEFEF;
+	font-size:14px;
+	font-weight:700;
+}
+
+.j-ui-miniwindow .close{
+	float:right;width:15px;
+	height:14px;background:url(../images/ui-alert.png)
+	 -240px -20px no-repeat;cursor:pointer;
+}
+
+.j-ui-miniwindow .close:hover {
+	background-position:-240px 0;
+}
+
+.j-ui-miniwindow .bd{
+	padding:10px;
+}
+
+.j-ui-miniwindow .bd{
+	padding:2px;
+	height: 90%;
+}
+
+/* btn */
+.dialog-btn{position:relative;display:inline-block;*display:inline;*zoom:1;
+	height:32px;border:1px solid #CACACA;padding:0 15px;
+	line-height:32px;text-align:center;vertical-align:middle;
+	background-color:#F6F6F6;font-size:14px;font-weight:700;color:#555;
+	cursor:pointer;border-radius:3px;
+background-image:-webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.06));
+background-image:-moz-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.06));
+background-image:-o-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.06));
+background-image:linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.06));
+background-color:#FFF;
+box-shadow:0 1px 2px rgba(0,0,0,0.2);
+height:34px\9;
+line-height:34px\9;
+border:0 none\9;
+background:url(ui-btn.png) no-repeat 0 0\9;
+}
+.text-center{
+	text-align: center;
+}
+.dialog-btn a{color:#008eb3; text-decoration:none; outline:none;text-decoration:none;}
+.dialog-btn a:visited,.dialog-btn a:hover,.dialog-btn a:active{text-decoration:none;}
+.dialog-btn:focus{outline:none;}
+.dialog-btn:hover{border-color:#86CCBE;color:#25A38A;background:url(ui-btn.png) 0 -80px\9;text-decoration:none;}
+.dialog-btn:hover .btn-inner{background:url(ui-btn.png) right -80px\9;}
+.dialog-btn:active{color:#25A38A;
+background-image:-webkit-linear-gradient(top,rgba(0,0,0,0.06),rgba(0,0,0,0));
+background-image:-moz-linear-gradient(top,rgba(0,0,0,0.06),rgba(0,0,0,0));
+background-image:-o-linear-gradient(top,rgba(0,0,0,0.06),rgba(0,0,0,0));
+background-image:linear-gradient(top,rgba(0,0,0,0.06),rgba(0,0,0,0));
+background:url(ui-btn.png) 0 -120px\9;
+}
+.btn:active .btn-inner{background:url(ui-btn.png) right -120px\9;}

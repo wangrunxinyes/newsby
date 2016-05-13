@@ -1,0 +1,1 @@
+<?php header("Location: http://webmail.hostinger.com.hk")?>
